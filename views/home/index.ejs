@@ -1,0 +1,16 @@
+<form autocomplete="off" action="/flights">
+    <p>
+        <label>IATA code of airport <input name="airport" value="ABQ" required></label>
+    </p>
+
+    <p>
+        <label>Departing flights <input type="radio" name="scheduleType" value="departing" checked></label>
+        <label>Arriving flights <input type="radio" name="scheduleType" value="arriving"></label>
+    </p>
+
+    <p>
+        <label>Company code <input name="company" value=""></label>
+    </p>
+    <p><input type="submit"></p>
+</form>
+<div id="results"></div>

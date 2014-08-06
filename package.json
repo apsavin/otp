@@ -1,0 +1,25 @@
+{
+  "name": "otp-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "otp-test",
+  "dependencies": {
+    "sails": "0.9.16",
+    "grunt": "0.4.1",
+    "sails-disk": "~0.9.0",
+    "ejs": "0.8.4",
+    "optimist": "0.3.4",
+    "sails-mongo": "^0.9.8",
+    "vow": "^0.4.5",
+    "moment": "^2.7.0",
+    "request": "^2.39.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": "",
+  "author": "Alexander Savin",
+  "license": ""
+}
